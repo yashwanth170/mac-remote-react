@@ -78,9 +78,9 @@ CORS Issues: If you encounter CORS issues, ensure that your backend is configure
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-# License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-# Acknowledgements
+## Acknowledgements
 React
 Axios
