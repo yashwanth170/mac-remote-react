@@ -72,15 +72,15 @@ Press the "Shutdown" button to shut down your Mac remotely.
 Styling
 The application is styled using inline styles in the RemoteControl component. The layout is optimized for simplicity and ease of use, with a focus on accessibility and mobile-friendly design.
 
-### Troubleshooting
+# Troubleshooting
 Backend Not Reachable: Ensure the backend is running and that the API URL in the axios requests is correct.
 CORS Issues: If you encounter CORS issues, ensure that your backend is configured to allow requests from the frontend's origin.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-### License
+# License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-### Acknowledgements
+# Acknowledgements
 React
 Axios
