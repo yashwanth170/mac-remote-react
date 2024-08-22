@@ -39,7 +39,7 @@ yarn start
 The application will start on the default port 3000. You can access it at http://localhost:3000 in your browser.
 
 ### Configuration
-You can configure the backend API URL by updating the axios calls in the RemoteControl component to point to your Mac's correct IP address. Additionally, you can run both the frontend and backend locally. To streamline this process, you can create a shell script that allows you to start both the application and control it remotely with a single command.
+You can configure the backend API URL by updating the axios calls in the RemoteControl component to point to your Mac's correct IP address. Additionally, you can run both the frontend and backend locally. To streamline this process, you can create a shell script that allows you to start both the application with a single command.
 
 ```bash
 #!/bin/bash
