@@ -38,11 +38,23 @@ npm start
 yarn start
 The application will start on the default port 3000. You can access it at http://localhost:3000 in your browser.
 
-Configuration
-You can configure the backend API URL by updating the axios calls in the RemoteControl component to point to the correct IP address of your Mac.
+### Configuration
+You can configure the backend API URL by updating the axios calls in the RemoteControl component to point to your Mac's correct IP address. Additionally, you can run both the frontend and backend locally. To streamline this process, you can create a shell script that allows you to start both the application and control it remotely with a single command.
 
-Usage
-Volume Control:
+```bash
+#!/bin/bash
+
+echo "Starting Spring Boot application..."
+(cd /path/to/spring-boot-app && ./mvnw spring-boot:run) &
+
+echo "Starting React application..."
+(cd /path/to/react-app && npm start) &
+
+wait
+```
+
+### Usage
+# Volume Control:
 
 Adjust the volume using the + and - buttons or set a specific level using the input field.
 Press the "Set Volume" button to apply the desired volume.
@@ -52,22 +64,23 @@ Use the arrow buttons to skip forward or backward.
 Press the "Space" button to play/pause media.
 Toggle Spotify play/pause with the corresponding button.
 Skip YouTube ads using the "Skip Ad" button.
-Power Management:
+
+# Power Management:
 
 Press the "Sleep" button to put your Mac to sleep.
 Press the "Shutdown" button to shut down your Mac remotely.
 Styling
 The application is styled using inline styles in the RemoteControl component. The layout is optimized for simplicity and ease of use, with a focus on accessibility and mobile-friendly design.
 
-Troubleshooting
+### Troubleshooting
 Backend Not Reachable: Ensure the backend is running and that the API URL in the axios requests is correct.
 CORS Issues: If you encounter CORS issues, ensure that your backend is configured to allow requests from the frontend's origin.
 Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your improvements.
 
-License
+### License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+### Acknowledgements
 React
 Axios
