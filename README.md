@@ -20,7 +20,7 @@ This React application serves as a remote control interface for managing media s
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/mac-media-controller-frontend.git
+   git clone https://github.com/yashwanth170/mac-remote-react.git
    cd mac-media-controller-frontend
 Install dependencies:
 
