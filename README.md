@@ -27,14 +27,14 @@ Install dependencies:
 bash
 Copy code
 npm install
-# or if using yarn
+### or if using yarn
 yarn install
 Start the development server:
 
 bash
 Copy code
 npm start
-# or if using yarn
+### or if using yarn
 yarn start
 The application will start on the default port 3000. You can access it at http://localhost:3000 in your browser.
 
@@ -53,8 +53,8 @@ echo "Starting React application..."
 wait
 ```
 
-### Usage
-# Volume Control:
+## Usage
+### Volume Control:
 
 Adjust the volume using the + and - buttons or set a specific level using the input field.
 Press the "Set Volume" button to apply the desired volume.
@@ -65,14 +65,14 @@ Press the "Space" button to play/pause media.
 Toggle Spotify play/pause with the corresponding button.
 Skip YouTube ads using the "Skip Ad" button.
 
-# Power Management:
+### Power Management:
 
 Press the "Sleep" button to put your Mac to sleep.
 Press the "Shutdown" button to shut down your Mac remotely.
 Styling
 The application is styled using inline styles in the RemoteControl component. The layout is optimized for simplicity and ease of use, with a focus on accessibility and mobile-friendly design.
 
-# Troubleshooting
+### Troubleshooting
 Backend Not Reachable: Ensure the backend is running and that the API URL in the axios requests is correct.
 CORS Issues: If you encounter CORS issues, ensure that your backend is configured to allow requests from the frontend's origin.
 Contributing
